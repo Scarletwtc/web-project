@@ -1,0 +1,121 @@
+
+
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.spinner_box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #FFFFFF; /* White */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.circle_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  background-color: #2e2e2e; /* Dark blue */
+  border-radius: 50%;
+}
+
+.circle_core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  background-color: #FFFFFF; /* White */
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+/* Timer text */
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#timer {
+  font-size: 56px;
+  color: #131313; 
+  margin-bottom: 10px;
+}
+
+#startBtn, #resetBtn {
+  padding: 8px 16px;
+  background-color: #0e0e0e; /* Dark blue */
+  color: #FFFFFF; /* White */
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.timer #startBtn, .timer #resetBtn {
+  display: inline-flex;
+}
+
+#startBtn:hover, #resetBtn:hover {
+  background-color: #535456; /* Slightly lighter blue */
+}
+
+#startBtn:active, #resetBtn:active {
+  background-color: #5e6061; /* Darker blue */
+}
+
+
+.btns{
+  display: inline;
+  display: inline-block;
+}
+
+
+
+
+
+#music{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.songs{
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  border: #414141;
+  border-style: solid;
+  box-shadow: #e3e2e2 5px;
+}
+.song-list li {
+  cursor: pointer;
+  margin-bottom: 5px;
+  
+}
+
+.backg{
+  margin-bottom: 50px;
+}
+
+.current-song {
+  font-weight: bold;
+}
+
+
+/*yes no*/
